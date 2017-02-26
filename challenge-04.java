@@ -17,11 +17,14 @@ public class main {
   }
 
   //  Methods must be defined outside of main, but inside the class
-  public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
+  public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
 
     if (gameOver) {
       int finalScore = score + (levelCompleted * bonus);
       System.out.println("Your final score was " + finalScore);
+      return finalScore;
+    } else {
+      return -1;
     }
 
   }
