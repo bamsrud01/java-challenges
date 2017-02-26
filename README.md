@@ -19,3 +19,7 @@ This repo is a collection of files assigned as challenges for the Complete Java 
 ### 04. Calculate Total Score
   - This challenge follows the lesson on code blocks and the if() keyword
   - Calculate a final score with a given score, level, and bonus
+
+### 04. Imperial to Metric Length Conversion
+  - This challenge follows the lesson on method overloading
+  - Given provided feet and inches, or only inches, the method will convert the length to centimeters
