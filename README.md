@@ -15,3 +15,7 @@ This repo is a collection of files assigned as challenges for the Complete Java 
 ### 03. Determine if Total Exceeds Limit
   - This challenge follows the lesson on conditional expressions
   - Calculates values and tests against limit
+
+### 04. Calculate Total Score
+  - This challenge follows the lesson on code blocks and the if() keyword
+  - Calculate a final score with a given score, level, and bonus
