@@ -2,6 +2,11 @@ public class Main {
 
   public static void main(String[] args) {
 
+    Account myAccount = new Account();
+    myAccount.setBalance(1000000);
+    myAccount.withdrawFunds(3000);
+    myAccount.depositFunds(400);
+
   }
 
 }
