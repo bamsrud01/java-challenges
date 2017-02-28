@@ -23,3 +23,7 @@ This repo is a collection of files assigned as challenges for the Complete Java 
 ### 04. Imperial to Metric Length Conversion
   - This challenge follows the lesson on method overloading
   - Given provided feet and inches, or only inches, the method will convert the length to centimeters
+
+### 05. Bank Account
+  - This challenge follows the lesson on classes
+  - Create a bank account with account number, balance, customer name, email, and phone number
