@@ -1,6 +1,6 @@
 # Java Challenges
 
-This repo is a collection of files assigned as challenges for the Complete Java Developer Course on Udemy
+This repo is a collection of files assigned as challenges for the Complete Java Developer Course on Udemy.  These files follow a lesson on a certain concept in Java.
 
 ## Contents
 

@@ -10,6 +10,7 @@ public class Main {
   }
 
 }
+//  END OF CLASS
 
 public class BankAccount {
 
@@ -35,7 +36,7 @@ public class BankAccount {
     }
   }
 
-  //  Setters
+  //  Setters for each item
   public void setAccountNumber(String accountNumber) {
     this.accountNumber = accountNumber;
   }
@@ -56,7 +57,7 @@ public class BankAccount {
     this.phoneNumber = phoneNumber;
   }
 
-  //  Getters
+  //  Getters for each item
   public String getAccountNumber() {
     return accountNumber;
   }

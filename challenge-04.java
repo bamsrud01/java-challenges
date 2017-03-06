@@ -1,6 +1,7 @@
 public class main {
 
   public static void main(String[] args) {
+
     //  Print out a score to the screen with the following:
       //  Score of 10000
       //  Completed level 8
@@ -16,7 +17,8 @@ public class main {
     calculateScore(true, 800, 5, 100);
   }
 
-  //  Methods must be defined outside of main, but inside the class
+
+  //  Methods must be defined outside of 'main' method, but inside the class
   public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
 
     if (gameOver) {
