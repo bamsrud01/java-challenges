@@ -20,10 +20,14 @@ This repo is a collection of files assigned as challenges for the Complete Java 
   - This challenge follows the lesson on code blocks and the if() keyword
   - Calculate a final score with a given score, level, and bonus
 
-### 04. Imperial to Metric Length Conversion
+### 05. Imperial to Metric Length Conversion
   - This challenge follows the lesson on method overloading
   - Given provided feet and inches, or only inches, the method will convert the length to centimeters
 
-### 05. Bank Account
+### 06. Bank Account
   - This challenge follows the lesson on classes
   - Create a bank account with account number, balance, customer name, email, and phone number
+
+### 07. Vehicles and Cars
+  - This challenge follows the lesson on class inheritance
+  - Create a Vehicle class, a Car class, and an Outlander Class
