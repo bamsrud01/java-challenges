@@ -30,4 +30,8 @@ This repo is a collection of files assigned as challenges for the Complete Java 
 
 ### 07. Vehicles and Cars
   - This challenge follows the lesson on class inheritance
-  - Create a Vehicle class, a Car class, and an Outlander Class
+  - Create a Vehicle class, a Car class, and an Outlander Class, each inheriting from the previous.
+
+### 08. Bedroom
+  - This challenge follows the lesson on composition
+  - It involves creating a Bedroom class that is composed of numerous other classes
