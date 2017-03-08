@@ -35,3 +35,7 @@ This repo is a collection of files assigned as challenges for the Complete Java 
 ### 08. Bedroom
   - This challenge follows the lesson on composition
   - It involves creating a Bedroom class that is composed of numerous other classes
+
+### 09. Printer
+  - This challenge follows the lesson on encapsulation
+  - The goal is to use encapsulation techniques to build a model of Printer classes
