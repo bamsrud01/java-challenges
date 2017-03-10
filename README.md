@@ -38,4 +38,8 @@ This repo is a collection of files assigned as challenges for the Complete Java 
 
 ### 09. Printer
   - This challenge follows the lesson on encapsulation
-  - The goal is to use encapsulation techniques to build a model of Printer classes
+  - The goal is to use encapsulation techniques to build a model of Printer classes.
+
+### 10. Cars
+  - This challenge follows the lesson on polymorphism
+  - Different types of car subclasses use the same methods to return different values
