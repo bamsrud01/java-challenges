@@ -43,3 +43,7 @@ This repo is a collection of files assigned as challenges for the Complete Java 
 ### 10. Cars
   - This challenge follows the lesson on polymorphism
   - Different types of car subclasses use the same methods to return different values
+
+### 11. Bill's Burgers
+  - This is a master challenge, covering the main concepts of Object-Oriented Programming in Java
+  - This is an application to help Bill's Burgers sell many types of burgers
