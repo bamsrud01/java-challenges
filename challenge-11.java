@@ -12,6 +12,14 @@ public class Main {
         supremeBurger.addOption3("pickles", 0.25);
         supremeBurger.addOption4("lettuce", 0.15);
         System.out.println("Total price is $" + supremeBurger.itemizeHamburger() + ".");
+
+        HealthyBurger healthyBurger = new HealthyBurger("lean beef", 5.50);
+        healthyBurger.addHealthyOption1("egg", 0.99);
+        healthyBurger.addHealthyOption2("onion", 0.50);
+        System.out.println("Total Healthy Burger price is $" + healthyBurger.itemizeHamburger() + ".");
+
+        DeluxeBurger deluxeBurger = new DeluxeBurger();
+        deluxeBurger.itemizeHamburger();
     }
 }
 
@@ -82,5 +90,72 @@ public class Hamburger {
             System.out.println("Added " + this.option4Name + " for an extra $" + this.option4Price + ".");
         }
         return hamburgerPrice;
+    }
+}
+
+/*  Healthy Burger Class  */
+public class HealthyBurger extends Hamburger {
+
+    //  Fields for this class
+    private String healthyOption1Name;
+    private double healthyOption1Price;
+    private String healthyOption2Name;
+    private double healthyOption2Price;
+
+    //  Constructor
+    public HealthyBurger(String meat, double price) {
+        super("Healthy", meat, "brown rye", price);
+    }
+
+    //  Add options
+    public void addHealthyOption1(String name, double price) {
+        this.healthyOption1Name = name;
+        this.healthyOption1Price = price;
+    }
+    public void addHealthyOption2(String name, double price) {
+        this.healthyOption2Name = name;
+        this.healthyOption2Price = price;
+    }
+
+    @Override
+    public double itemizeHamburger() {
+        double hamburgerPrice = super.itemizeHamburger();
+        if (this.healthyOption1Name != null) {
+            hamburgerPrice += this.healthyOption1Price;
+            System.out.println("Added " + this.healthyOption1Name + " for an extra $" + this.healthyOption1Price + ".");
+        }
+        if (this.healthyOption2Name != null) {
+            hamburgerPrice += this.healthyOption2Price;
+            System.out.println("Added " + this.healthyOption2Name + " for an extra $" + this.healthyOption2Price + ".");
+        }
+        return hamburgerPrice;
+    }
+}
+
+/*  Deluxe Burger Class  */
+public class DeluxeBurger extends Hamburger {
+
+    //  Constructor
+    public DeluxeBurger() {
+        super("Deluxe", "sausage and bacon", "sesame seed", 6.99);
+        super.addOption1("fried onions", 0.99);
+        super.addOption2("fries", 2.00);
+    }
+
+    @Override
+    public void addOption1(String name, double price) {
+        System.out.println("Cannot add options to deluxe burger");
+    }
+    @Override
+    public void addOption2(String name, double price) {
+        System.out.println("Cannot add options to deluxe burger");
+    }
+    @Override
+    public void addOption3(String name, double price) {
+        System.out.println("Cannot add options to deluxe burger");
+    }
+    @Override
+    public void addOption4(String name, double price) {
+        System.out.println("Cannot add options to deluxe burger");
     }
 }
