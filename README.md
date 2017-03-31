@@ -50,4 +50,4 @@ This repo is a collection of files assigned as challenges for the Complete Java 
 
 ### 12. Sorting Integers
   - This challenge follows the lesson on arrays
-  - Application accepts an array of integers from the user, sorts them in descending order, and outputs them to the user.
+  - Application accepts an array of integers from the user, sorts them in descending order, and outputs them to the user
