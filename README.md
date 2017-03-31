@@ -47,3 +47,7 @@ This repo is a collection of files assigned as challenges for the Complete Java 
 ### 11. Bill's Burgers
   - This is a master challenge, covering the main concepts of Object-Oriented Programming in Java
   - This is an application to help Bill's Burgers sell many types of burgers
+
+### 12. Sorting Integers
+  - This challenge follows the lesson on arrays
+  - Application accepts an array of integers from the user, sorts them in descending order, and outputs them to the user.
