@@ -51,3 +51,7 @@ This repo is a collection of files assigned as challenges for the Complete Java 
 ### 12. Sorting Integers
   - This challenge follows the lesson on arrays
   - Application accepts an array of integers from the user, sorts them in descending order, and outputs them to the user
+
+### 13. Model of Phone
+  - This challenge follows the lesson on array lists
+  - This phone allows uses to add, remove, modify, and search for contacts, providing input options for each function of the phone
