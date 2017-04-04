@@ -55,3 +55,7 @@ This repo is a collection of files assigned as challenges for the Complete Java 
 ### 13. Model of Phone
   - This challenge follows the lesson on array lists
   - This phone allows uses to add, remove, modify, and search for contacts, providing input options for each function of the phone
+
+### 14. Bank Application
+  - This challenge follows the lesson on autoboxing and unboxing
+  - This application will track customer transactions at a bank
