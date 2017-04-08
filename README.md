@@ -59,3 +59,7 @@ This repo is a collection of files assigned as challenges for the Complete Java 
 ### 14. Bank Application
   - This challenge follows the lesson on autoboxing and unboxing
   - This application will track customer transactions at a bank
+
+### 15. Song Playlist
+  - This challenge follows the lesson on linked lists
+  - This application features a playlist of songs that can be added or removed
