@@ -63,3 +63,7 @@ This repo is a collection of files assigned as challenges for the Complete Java 
 ### 15. Song Playlist
   - This challenge follows the lesson on linked lists
   - This application features a playlist of songs that can be added or removed
+
+### 16. Item Storage
+  - This challenge follows the lesson on interfaces
+  - The interface provides the requirements for any class implementing a storage system.
